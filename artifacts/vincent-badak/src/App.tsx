@@ -12,6 +12,7 @@ import WhatsApp from "@/pages/whatsapp";
 import Tools from "@/pages/tools";
 import Anime from "@/pages/anime";
 import Users from "@/pages/admin/users";
+import Account from "@/pages/account";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ function ProtectedRoutes() {
         <Route path="/whatsapp" component={WhatsApp} />
         <Route path="/tools" component={Tools} />
         <Route path="/anime" component={Anime} />
+        <Route path="/account" component={Account} />
         <Route path="/admin/users" component={Users} />
         <Route component={NotFound} />
       </Switch>
