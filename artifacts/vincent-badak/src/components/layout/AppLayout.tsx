@@ -61,7 +61,7 @@ function Header() {
           </div>
 
           <div className="flex-1 py-2 flex flex-col gap-0.5 px-3 overflow-y-auto">
-            <SidebarItem icon={<Info className="w-5 h-5" />} label="Tentang Apps" onClick={() => setOpen(false)} />
+            <SidebarItem icon={<Info className="w-5 h-5" />} label="Tentang Apps" href="/about" onClick={() => setOpen(false)} />
             <SidebarItem icon={<UserIcon className="w-5 h-5" />} label="My Account" href="/account" onClick={() => setOpen(false)} />
             <SidebarItem icon={<Database className="w-5 h-5" />} label="Database User" href="/admin/users" onClick={() => setOpen(false)} />
             {user?.role === "admin" && (

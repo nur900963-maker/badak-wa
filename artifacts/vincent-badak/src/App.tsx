@@ -13,6 +13,7 @@ import Tools from "@/pages/tools";
 import Anime from "@/pages/anime";
 import Users from "@/pages/admin/users";
 import Account from "@/pages/account";
+import About from "@/pages/about";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ function ProtectedRoutes() {
         <Route path="/tools" component={Tools} />
         <Route path="/anime" component={Anime} />
         <Route path="/account" component={Account} />
+        <Route path="/about" component={About} />
         <Route path="/admin/users" component={Users} />
         <Route component={NotFound} />
       </Switch>
