@@ -209,7 +209,7 @@ export default function Tools() {
               )}
               <div>
                 <p className="text-sm font-bold text-white">{'title' in (activeTool ?? {}) ? (activeTool as typeof MAIN_TOOLS[0]).title : (activeTool as typeof MINI_TOOLS[0])?.label}</p>
-                <p className="text-[10px] text-slate-500">{'desc' in (activeTool ?? {}) ? (activeTool as typeof MAIN_TOOLS[0]).desc : "Simulasi Tool"}</p>
+                <p className="text-[10px] text-slate-500">{'desc' in (activeTool ?? {}) ? (activeTool as typeof MAIN_TOOLS[0]).desc : "Vincent Badak Tool"}</p>
               </div>
             </div>
             <button onClick={closeTool} className="text-slate-500 hover:text-white p-1">

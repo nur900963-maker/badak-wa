@@ -136,7 +136,7 @@ export default function About() {
             <div>
               <p className="text-xs font-bold text-yellow-400 mb-1">DISCLAIMER</p>
               <p className="text-[11px] text-slate-400 leading-relaxed">
-                Vincent Badak adalah tool simulasi internal. Penggunaan di luar keperluan yang diizinkan sepenuhnya menjadi tanggung jawab pengguna. Developer tidak bertanggung jawab atas penyalahgunaan.
+                Penggunaan di luar keperluan yang diizinkan sepenuhnya menjadi tanggung jawab pengguna. Developer tidak bertanggung jawab atas penyalahgunaan.
               </p>
             </div>
           </div>
